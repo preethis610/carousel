@@ -1,0 +1,256 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+  }
+
+  .carousel-wrapper {
+    overflow: hidden;
+  }
+.hidden-style{
+  overflow-x:hidden;
+}
+  .carousel-inner{
+    display: flex;
+    padding-top: 10%;
+  }
+.carousel-wrapper-style{
+    background-image:  url("../../assets/images/bgimg.jpg");
+    height:100%; 
+    left:12%;
+    right:12%;
+}
+.carousel-item-custom{
+  padding:5px;
+}
+.info-text{
+  padding: 7%;
+  padding-left: 21%;
+  position: absolute;
+  width: 42%;
+  font-size: 24px;
+  font-weight: 300;
+  line-height:28px;
+}
+.carousel-section{
+    position:relative;
+}
+
+:host {
+  display: block;
+}
+
+.open-close-container {
+  border: 1px solid #dddddd;
+  margin-top: 1em;
+  padding: 20px 20px 0px 20px;
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
+}
+.button-section{
+  margin-top:-19%;
+}
+.next-button{
+  padding-left:24%;
+}
+.prev-button{
+  padding-left:26%;
+}
+.prev-icon{
+  font-size:40px;
+}
+.next-icon{
+     font-size:40px;
+}
+
+@media screen and (max-height: 1000px) {
+
+  .button-section{
+    margin-top: -32%;
+  }
+}
+@media screen and (max-height: 900px) {
+
+  .button-section{
+    margin-top: -27%;
+  }
+}
+@media screen and (max-height: 800px) {
+
+  .button-section{
+    margin-top: -22%;
+  }
+}
+@media screen and (max-height: 800px) {
+
+  .button-section{
+    margin-top: -22%;
+  }
+}
+@media screen and (max-height: 550px) {
+
+  .button-section{
+    margin-top: -15%;
+  }
+}
+@media screen and (max-height: 450px) {
+
+  .button-section{
+    margin-top: -12%;
+  }
+}
+@media screen and (max-height: 400px) {
+
+  .button-section{
+    margin-top: -5%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .info-text{
+    padding: 4%;
+    width: 36%;
+    padding-left: 20%;
+  }
+  .button-section{
+    margin-top: -19%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .info-text{
+    padding: 3%;
+    width: 36%;
+    padding-left: 20%;
+  }
+  .button-section{
+    margin-top: -20%;
+  }
+}
+@media screen and (max-width: 1150px) {
+   .button-section{
+    margin-top: -23%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .info-text{
+    padding: 1%;
+    width: 35%;
+    padding-left: 19%;
+  }
+  .button-section{
+    margin-top: -24%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .button-section{
+    margin-top: -25%;
+  }
+}
+@media screen and (max-width: 950px) {
+   .button-section{
+    margin-top: -29%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .info-text{
+    padding: 2%;
+    width: 38%;
+    padding-left: 20%;
+  }
+  .button-section{
+    margin-top: -28%;
+  }
+}
+@media screen and (max-width: 875px) {
+   .button-section{
+    margin-top: -30%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .info-text{
+    padding: 2%;
+    width: 43%;
+    padding-left: 19%;
+  }
+  .button-section{
+    margin-top: -35%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  
+  .button-section{
+    margin-top: -40%;
+  }
+  .prev-button {
+    padding-left: 28%;
+}
+.next-button {
+    padding-left: 72%;
+    margin-top: -4%;
+}
+}
+@media screen and (max-width: 750px) {
+   .button-section{
+    margin-top: -43%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .info-text{
+    padding: 0%;
+    width: 40%;
+    padding-left: 15%;
+  }
+  .button-section{
+    margin-top: -41%;
+  }
+  .next-button {
+    padding-left: 72%;
+    margin-top: -4%;
+}
+.prev-button {
+  padding-left: 28%;
+}
+}
+@media screen and (max-width: 650px) {
+  .button-section{
+   margin-top: -47%;
+ }
+}
+@media screen and (max-width: 600px) {
+   .button-section{
+    margin-top: -58%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .info-text{
+    padding: 1%;
+    width: 39%;
+    padding-left: 15%;
+    font-size: 16px;
+  }
+  .button-section{
+    margin-top: -63%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .button-section{
+    margin-top: -67%;
+  }
+}
+.button-sec{
+  display :flex;
+  justify-content :space-between;
+  align-items:center;
+  width:100%;
+  position: absolute;
+    bottom: 9%;
+
+}
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/

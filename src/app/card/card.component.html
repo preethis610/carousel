@@ -1,0 +1,20 @@
+<div id="t{{cardContent.id}}" class="item" >
+    <div [hidden]='cardContent.id !== centerId' class="col-md-12 image-placeholder">
+               <canvas #canvas    class="canvas-style" style="border:1px solid #d3d3d3;"></canvas>
+      
+    </div>
+    
+    <div [hidden]='cardContent.id === centerId' class="col-md-12 image-placeholder">
+        <canvas #canvasCenter   class="canvas-style-center" style="border:1px solid #d3d3d3;"></canvas>
+            <!-- {{cardContent.id}}{{centerId}} -->
+    </div>
+    <div *ngIf='cardContent.id !== centerId' class="col-md-12 card-config outer-cards">
+        {{cardContent.title}}
+    </div>
+    <div  *ngIf='cardContent.id === centerId' class="col-md-12 card-config-center center-card">
+         {{cardContent.title}}
+    </div>
+    <div   *ngIf='cardContent.id === centerId' class="help-txt">
+        START HERE &nbsp;&nbsp;>
+    </div>
+</div>

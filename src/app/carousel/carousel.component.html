@@ -1,0 +1,30 @@
+<div class="carousel-wrapper-style">
+<section class="carousel-wrapper" >
+  <div class="carousel-section">
+    <div class="info-text">What are you <b>here to do?</b></div>
+      <ul  class="carousel-inner" #carousel>
+
+<!-- <div class="d-flex align-items-stretch"> -->
+  <li  class="carousel-item-custom" (dragend)="nextOrPrev($event)" draggable="true"  *ngFor="let item of items;" 
+  >
+ 
+  <div> <ng-container  [ngTemplateOutlet]="item.tpl"></ng-container></div>
+</li>
+<!-- </div> -->
+</ul>
+</div>
+</section>
+<div class="row button-sec">
+  <div class="col-md-6 prev-button">
+      <i class="fa fa-chevron-circle-left fa-2x prev-icon" (click)="prev($event)" aria-hidden="true"> </i>
+  </div>
+ 
+  <div class="col-md-6 next-button">
+  
+         
+      <i class="fa fa-chevron-circle-right fa-2x next-icon" (click)="next($event)" aria-hidden="true"> </i>
+   
+  </div>
+</div>
+</div>
+
